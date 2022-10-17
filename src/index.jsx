@@ -29,8 +29,7 @@ const App = () => {
       <div className="container">
         <h1>The Metropolitan Museum of Art</h1>
       </div>
-      <div>
-        Filtry:
+      <div className="filters">
         <div>
           Odvětví:
           <div className="departments">
@@ -46,13 +45,12 @@ const App = () => {
             ))}
           </div>
           <div>
-            Časové rozpětí vzniku díla
-            <label>
-              Od:
+             <label>
+             Časové rozpětí vzniku díla od:
               <input></input>
             </label>
             <label>
-              Do:
+              do:
               <input></input>
             </label>
           </div>

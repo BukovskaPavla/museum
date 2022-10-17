@@ -48,3 +48,11 @@ header {
   border-radius: 10px;
   border: 1px solid grey;
 }
+
+.filters{
+  border: 1px solid #E5E4E2;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  background-color: #E5E4E2
+}
